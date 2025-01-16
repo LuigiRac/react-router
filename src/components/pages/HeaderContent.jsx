@@ -13,7 +13,7 @@ function HeaderContent() {
                             <NavLink to="/HomePage">Home Page</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/About Us">About Us</NavLink>
+                            <NavLink to="/AboutUs">About Us</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/PostList">Post List</NavLink>
