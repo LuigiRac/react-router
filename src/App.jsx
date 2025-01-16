@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 
-import HeaderContent from "./components/HeaderContent";
-import MainContent from "./components/MainContent";
+import HeaderContent from "./components/pages/HeaderContent";
+import MainContent from "./components/pages/MainContent";
 
 
 
