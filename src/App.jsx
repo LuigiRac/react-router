@@ -22,7 +22,7 @@ function App() {
           <Route path="/" Component={MainContent} />
           <Route path="/HomePage" Component={HomePage} />
           <Route path="/AboutUs" Component={AboutUs} />
-          <Route path="/AboutUs" Component={PostList} />
+          <Route path="/PostList" Component={PostList} />
         </Route>
 
       </Routes>

@@ -1,3 +1,4 @@
+
 import { Link, NavLink } from "react-router-dom";
 
 function HeaderContent() {
@@ -5,18 +6,18 @@ function HeaderContent() {
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand">Navbar</a>
+                <NavLink className="navbar-brand" to="/">Navbar</NavLink>
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <NavLink to="/HomePage">Home Page</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/HomePage">Home Page</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/AboutUs">About Us</NavLink>
+                            <NavLink className="nav-link" to="/AboutUs">About Us</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/PostList">Post List</NavLink>
+                            <NavLink className="nav-link" to="/PostList">Post List</NavLink>
                         </li>
 
                     </ul>
