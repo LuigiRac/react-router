@@ -16,14 +16,17 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Route Component={DefaultLayout}>
+      <Routes>
 
-        <Route path="/" Component={MainContent} />
-        <Route path="/HomePage" Component={HomePage} />
-        <Route path="/AboutUs" Component={AboutUs} />
-        <Route path="/AboutUs" Component={PostList} />
+        <Route Component={DefaultLayout}>
+          <Route path="/" Component={MainContent} />
+          <Route path="/HomePage" Component={HomePage} />
+          <Route path="/AboutUs" Component={AboutUs} />
+          <Route path="/AboutUs" Component={PostList} />
+        </Route>
 
-      </Route>
+      </Routes>
+
     </BrowserRouter >
 
   )
